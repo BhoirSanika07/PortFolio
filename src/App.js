@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe';
 // import TechSkills from './components/TechSkills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import MoreMe from './components/MoreMe';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
     {/* <TechSkills/> */}
     <Experience/>
     <Projects/>
+    <MoreMe/>
     </>
   );
 }
